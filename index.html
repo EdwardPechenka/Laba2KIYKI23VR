@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>Laba 2 VR</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <style>
+    #header {
+      background-color: #f0f0f0;
+      padding: 20px;
+      text-align: center;
+      border-bottom: 2px solid #ccc;
+    }
+  </style>
+</head>
+<body>
+
+  <header id="header">
+    <h1> CSS Приклад</h1>
+  </header>
+
+  <main class="container">
+
+    <h2>Варіанти підключення CSS</h2>
+    <p style="color: rgb(0, 0, 0); font-style: italic;">
+      Використання <strong>inline-стилю</strong> (<code>style</code>).
+    </p>
+    <p>
+      Заголовок сторінки <strong>внутрішні стилі</strong> (<code>&lt;style&gt;</code> у <code>&lt;head&gt;</code>).
+    </p>
+    <p>
+      Інше оформлення сторінки йде з <strong>зовнішнього файлу</strong> (<code>style.css</code>).
+    </p>
+
+    <h2>Властивості <code>float</code></h2>
+    <div class="float-container">
+      <img src="c:\Users\Edward von Boch\Downloads\suveer-bhat-U72zBeLwCmU-unsplash.jpg" alt="Oreo_cookie" class="float-image">
+        <p>
+            Властивість <code>float</code> дозволяє обтікати текстом зображення або інші елементи. 
+            У цьому прикладі зображення розташоване зліва, а текст обтікає його справа.
+    </div>
+
+    <h2>Завдання за варіантом (Чекбокси)</h2>
+    <p>Оформлення мітки (<code>&lt;label&gt;</code>) змінюється, коли відповідний чекбокс обраний (стан <code>:checked</code>).</p>
+    <div class="checkbox-group">
+      <div>
+        <input type="checkbox" id="check1" name="check1">
+        <label for="check1">Елемент 1</label>
+      </div>
+      <div>
+        <input type="checkbox" id="check2" name="check2">
+        <label for="check2">Елемент 2</label>
+      </div>
+      <div>
+        <input type="checkbox" id="check3" name="check3" checked>
+        <label for="check3">Елемент 3</label>
+      </div>
+    </div>
+
+    <h2>Завдання за варіантом (Flexbox)</h2>
+    <p>Контейнер з елементами, розміщеними згідно з малюнком за допомогою <strong>Flexbox</strong>.</p>
+    
+    <div class="flex-container">
+      <div class="flex-item item-1">1</div>
+      <div class="flex-item item-2">2</div>
+      <div class="flex-item item-3">3</div>
+      <div class="flex-item item-4">4</div>
+      <div class="flex-item item-5">5</div>
+      <div class="flex-item item-6">6</div>
+      <div class="flex-item item-7">7</div>
+      <div class="flex-item item-8">8</div>
+      <div class="flex-item item-9">9</div>
+    </div>
+
+  </main>
+
+  <a href="#" id="fixed-button" title="Нагору">
+    ^
+  </a>
+
+</body>
+</html>
